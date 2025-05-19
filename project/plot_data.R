@@ -1,6 +1,6 @@
 library(tidyverse)
 south_asia <- read_csv(file = "sadata.csv")
-
+# this ia a comment to learn using git
 # Simple plot
 ggplot(data = south_asia, aes(x = date, y = life_exp, color = country)) +
   geom_line()
