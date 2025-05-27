@@ -1,4 +1,4 @@
-Read the CSV and make a simple base R plot
+#Read the CSV and make a simple base R plot
 
 data <- read.csv("sadata.csv")
 
